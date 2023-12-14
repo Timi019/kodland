@@ -2,8 +2,8 @@ import random
 import time
 
 
-pol_words = ["Cześć", "Pa", "Zadanie", "Program"]
-eng_words = ['Hello','Bye','Task', 'Program']
+pol_words = ["Cześć", "Pa", "Zadanie", "Tak", "Nie"]
+eng_words = ['Hello','Bye','Task', 'Yes', 'No']
 score = 0
 
 mode = input("Wybierz tryb: 0 - dodawaj nowe słowa, 1 - trenuj: \n")
