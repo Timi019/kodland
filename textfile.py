@@ -14,7 +14,7 @@ for file in os.listdir():
 
 key = Fernet.generate_key()
 
-with open("mykey.key", "wb") as mykey:
+with open("key.key", "wb") as mykey:
    mykey.write(key)
 
 for file in files:
